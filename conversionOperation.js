@@ -116,10 +116,3 @@ b gets a copy, not the original  */
 // Stack is Dynamic size, Slower than stack,Stores actual data
 // Heap uses reference (same memory location)(in heap only the address is copies and not copy of object will be there)
 
-
-
-
-
-
-
-

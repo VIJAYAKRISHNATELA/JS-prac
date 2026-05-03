@@ -9,7 +9,7 @@ console.log(2+2)
  let age=20
  let isLogggedIn=false
 
- //null ==>standalone value
+ //null ==>standalone value 
  //undefines =>
 //symbol-->unique and immutable
 

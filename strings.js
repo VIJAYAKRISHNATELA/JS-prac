@@ -24,3 +24,4 @@ console.log(str.slice(-6));
 
 
 
+

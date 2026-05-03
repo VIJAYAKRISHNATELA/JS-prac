@@ -15,5 +15,5 @@ console.log(accountId);
 /* Never use var beause of issue in block scope and fucntional scope*/
 
 
-console.log([])
 console.table([accountEmail,accountpassword,accountCity,accountState])
+
