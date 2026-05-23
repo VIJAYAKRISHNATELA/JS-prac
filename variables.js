@@ -245,8 +245,8 @@
 
 
 
-const states=["Andhra Pradesh","Telangana","TamilNadu"];
-const city=["vijayawada","Hyderabad","chennai"];
+// const states=["Andhra Pradesh","Telangana","TamilNadu"];
+// const city=["vijayawada","Hyderabad","chennai"];
 
 
 // states.push(city)
@@ -257,5 +257,76 @@ const city=["vijayawada","Hyderabad","chennai"];
 // console.log(allinfo)
 
 
-const allinfo=[...states,...city]
-console.log(allinfo)
+// const allinfo=[...states,...city]
+// // console.log(allinfo)
+// // console.log(Array.isArray("Hyderabad"))
+
+// //Array of 
+// const arr = Array.of(1,2,3,4);
+// console.log(arr);
+
+// //Array from
+// const arr1=Array.from("krishna")
+// console.log(arr1)
+
+
+// console.log(Array.isArray(2))
+
+
+//Arrow functions practice in javascript
+
+//  const add=(a,b)=> a+b;
+//  console.log(add(5,5));
+
+
+
+// const nums=[2,4,6];
+
+// const doubled=nums.map(nums=>nums*2);
+
+// console.log(doubled)
+
+//Filter 
+const nums=[6,7,8,8,9,10,12,18];
+const even=nums.filter(n=>n%2==0);
+// console.log(even);
+
+
+const numbers=[3,53,1,2,2,10];
+const bignumbers=numbers.filter(n=>n>=10);
+// console.log(bignumbers);
+
+
+const num=[99,78,35,10,89,1];
+const l=num.filter(k=>k<10);
+// console.log(l);
+
+
+//forEach()
+
+
+// const names=["Tela","vijay","krishna"];
+
+// names.forEach(name=>{
+//     // console.log(name);
+// })
+
+
+
+//use map for squaring the nummber
+const elements=[2,4,6,8,10];
+const square=elements.map(n=>n**2);
+console.log(square);
+
+//filter reuturn only 20 and 30
+const var1=[10,15,20,25,30];
+const returnq=var1.filter(n=> n>=20 && n%10===0);
+console.log(returnq);
+
+//forEach loop  
+
+const names=["Rahul","Krishna","Aman"];
+
+names.forEach(name=>{
+    console.log(`Hello ${name}`);
+})

@@ -57,6 +57,29 @@ function returnsecondval(getArray){
 // console.log(returnsecondval(myArray));
 
 
+// function sayHello() {
+//     console.log("Hello");
+// }
+
+// sayHello()
+
+
+
+// const greet=function(){
+//     console.log("HII");
+// }
+// greet()
+
+
+//------------Arrow Functions--------------//
+
+const greet=()=>{
+    console.log("krishna");
+}
+
+greet();
+
+
 
 
 

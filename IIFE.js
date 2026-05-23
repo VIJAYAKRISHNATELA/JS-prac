@@ -16,9 +16,7 @@ LPU()
 
 // we have to end the IIFE before writing another fucntion
 
-( () =>{
-    console.log(`Lovely professional univerty`)
-})()
+
 
 
 
