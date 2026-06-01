@@ -316,17 +316,27 @@ const l=num.filter(k=>k<10);
 //use map for squaring the nummber
 const elements=[2,4,6,8,10];
 const square=elements.map(n=>n**2);
-console.log(square);
+// console.log(square);
 
 //filter reuturn only 20 and 30
 const var1=[10,15,20,25,30];
 const returnq=var1.filter(n=> n>=20 && n%10===0);
-console.log(returnq);
+// console.log(returnq);
 
 //forEach loop  
 
 const names=["Rahul","Krishna","Aman"];
 
 names.forEach(name=>{
-    console.log(`Hello ${name}`);
+    // console.log(`Hello ${name}`);
 })
+
+
+const coding=["js","ruby","java","python","cpp"];
+
+const values=coding.forEach(langs=>{
+    console.log(langs)
+})
+
+
+
