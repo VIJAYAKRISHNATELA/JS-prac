@@ -1,0 +1,85 @@
+What is DOM?
+
+DOM stands for Document Object Model.
+
+When a browser loads an HTML page, it converts the HTML into a tree-like structure called the DOM.
+
+JavaScript uses the DOM to:
+
+Access HTML elements
+Modify content
+Change styles
+Add or remove elements
+Handle user interactions
+
+<html>
+<body>
+    <h1>Hello</h1>
+    <p>Welcome</p>
+</body>
+</html>
+
+Document
+  |
+ html
+  |
+ body
+ /   \
+h1    p
+
+
+
+
+Selecting Elements:
+Selects an element using its id.
+const title = document.getElementById("title");
+
+getElementsByClassName()
+Returns all elements having the class.
+const items = document.getElementsByClassName("item");
+
+
+querySelector()
+Returns the first matching element.
+
+document.querySelector(".box");
+document.querySelector("#title");
+document.querySelector("h1");
+
+querySelectorAll()
+Returns all matching elements.
+document.querySelectorAll(".box");
+Returns a NodeList.
+
+Changing Content
+innerText
+
+Changes visible text.
+
+title.innerText = "Welcome";
+textContent
+
+Gets all text, including hidden text.
+
+title.textContent;
+innerHTML
+
+Changes HTML content.
+
+title.innerHTML = "<span>Hello</span>";
+
+
+element.style.color = "red";
+element.style.backgroundColor = "yellow";
+element.style.fontSize = "30px";
+
+
+Attributes
+
+HTML:
+
+<a href="https://google.com">Google</a>
+getAttribute()
+link.getAttribute("href");
+setAttribute()
+link.setAttribute("href", "https://youtube.com");
