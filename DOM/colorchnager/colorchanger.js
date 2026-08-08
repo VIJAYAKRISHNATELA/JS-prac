@@ -9,7 +9,7 @@ buttons.forEach(function(button){
         if(event.target.id=='grey'){
             body.style.backgroundColor=event.target.id;
         }
-
+        
          if(event.target.id=='red'){
             body.style.backgroundColor=event.target.id;
         }
@@ -19,7 +19,7 @@ buttons.forEach(function(button){
         }
 
          if(event.target.id=='purple'){
-            body.style.backgroundColor=event.target.id;
+            body.style.backgroundColor=event.target.id;                                 
         }
 
     });

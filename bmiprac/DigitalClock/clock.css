@@ -1,0 +1,11 @@
+#clock{
+        height: 10px;
+        width: 200px;
+        padding-right: 90;
+        padding: 50px;
+        border-radius: 40px;
+        letter-spacing: 10px;
+        color: yellow;
+        background-color: red;
+
+}
